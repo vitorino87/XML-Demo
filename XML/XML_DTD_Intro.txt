@@ -1,0 +1,84 @@
+XML DTD
+
+An XML document with correct syntax is called "Well Formed".
+An XML document validated against a DTD is both "Well Formed" and "Valid".
+
+1. Valid XML Documents
+A "Valid" XML document is a "Well Formed" XML document, which also conforms to the rules of a DTD:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "Note.dtd">
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note>
+
+The DOCTYPE declaration, in the example above, is a reference to an external DTD file. 
+The content of the file is shown in the paragraph below.
+
+1.1. XML DTD
+The purpose of a DTD is to define the structure of an XML document. It defines the structure with a list of legal elements:
+
+<!DOCTYPE note
+[
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+
+The DTD above is interpreted like this:
+
+!DOCTYPE note defines that the root element of the document is note
+!ELEMENT note defines that the note element must contain the elements: "to, from, heading, body"
+!ELEMENT to defines the to element to be of type "#PCDATA"
+!ELEMENT from defines the from element to be of type "#PCDATA"
+!ELEMENT heading defines the heading element to be of type "#PCDATA"
+!ELEMENT body defines the body element to be of type "#PCDATA"
+
+#PCDATA means parse-able text data.
+
+1.2. Using DTD for Entity Declaration
+
+A doctype declaration can also be used to define special characters and character strings, 
+used in the document:
+
+Example:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE note [
+<!ENTITY nbsp "&#xA0;"> 
+<!ENTITY writer "Writer: Donald Duck.">
+<!ENTITY copyright "Copyright: W3Schools.">
+]>
+
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+<footer>&writer;&nbsp;&copyright;</footer>
+</note>
+
+An entity has three parts: an ampersand (&), an entity name, and a semicolon (;).
+
+2. When to Use a DTD/Schema?
+
+With a DTD, independent groups of people can agree to use a standard DTD for interchanging data.
+With a DTD, you can verify that the data you receive from the outside world is valid.
+You can also use a DTD to verify your own data.
+
+3. When NOT to Use a DTD/Schema?
+
+XML does not require a DTD/Schema.
+
+When you are experimenting with XML, or when you are working with small XML files, creating DTDs 
+may be a waste of time.
+
+If you develop applications, wait until the specification is stable before you add a document 
+definition. Otherwise, your software might stop working because of validation errors.
+

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<auditoria>
+    <pagina>
+        <titulo>Introdução do Curso</titulo>
+        <corpo>Não importa a norma de sistema de gestão, a base metodológica para realização de auditorias e avaliação de auditores é a mesma, porém o profissional deve conhecer profundamente
+a norma em questão para conseguir realizar uma auditoria eficaz.&LF;
+    Neste treinamento os exercícios são focados em casos relacionados à norma relativa ao produto que você adquiriu, mas quando realizamos uma auditoria devemos também levar em conta:
+        <importante>
+            - Adequação do sistema aos requisitos da organização;&LF;
+            - Legislação.
+        </importante>
+        Portanto, podemos realizar uma auditoria considerando os procedimentos e instruções da organização, se for decisão dos responsáveis.</corpo>
+    </pagina>
+    
+    <pagina>
+        <titulo>Objetivos da Auditoria</titulo>
+        <corpo>
+            <importante>
+                - Determinar conformidades e não conformidades;
+                - Determinar eficácia do Sistema de Gestão - se este atende as necessidades e expectativas dos clientes;
+                - Indicar oportunidades para melhoria;
+                - Atender requisitos legais;
+                - Viabilizar a certificação do Sistema de Gestão;
+                - Base para relação contratual entre organizações e seus fornecedores;
+                - Favorecer melhoria contínua dos processos.
+            </importante>
+            <subtitulo>Precisa Promover:</subtitulo>
+            <importante>
+                - Identificação e redução de não conformidades reais;
+                - Prevenção de não conformidades potenciais;
+                - Fonte de dados para análise de desempenho da organização.
+            </importante>
+        </corpo>
+    </pagina>
+    
+    <pagina>
+        <titulo>Prefácio da NBR ISO 19011:2012</titulo>
+        <corpo>A NBR ISO 19011:2012 - diretrizes para auditorias de sistemas de gestão foi elaborada pela organização ISO 
+            (International Organization for Standardization) com o objetivo de orientar a realização de auditorias que utilizam como padrão
+            as normas para Sistemas de Gestão, que é uma ampliação do escopo da versão 2002 que se aplicava apenas a ISO 9001 - Requisitos 
+            de Gestão da Qualidade e ISO 14001 - Requisitos para Gestão do Meio Ambiente, além desta as principais diferenças entre as 2
+            versões são:
+            <importante>
+                - A relação entre a ABNT NBR ISO 19011 e a ABNT NBR ISO/IEC 17021 foi esclarecida;
+                - Métodos de auditoria remota e o conceito de riscos foram introduzidos;
+                - Confidencialidade foi acrescentada como um novo princípio de auditoria;
+                - As seções 5, 6 e 7 foram reorganizadas;
+                - Informações adicionais foram incluídas no Anexo B, resultando na remoção das caixas de texto;
+                - O processo de avaliação e de determinação de competências tornou-se mais rígido;
+                - Exemplos de habilidades e conhecimentos de disciplinas específicos foram incluídos no Anexo A;
+                - Diretrizes adicionais estão disponíveis em www.iso.org/19011auditing.
+            </importante>
+        </corpo>
+    </pagina>
+
+    <pagina>
+        <titulo>Introdução da NBR ISO 19011:2012</titulo>
+        <corpo>
+            - Escopo mais abrangente e diretrizes mais genéricas.
+            - Publicação da NBR ISO/IEC 17021.
+            - Fornece diretrizes sobre a gestão de programas de auditorias, sobre o planejamento e a realização de uma auditoria de SG, bem como sobre a competência e a avaliação de um auditor e de uma equipe de auditoria.
+            - É intenção da ISO 19011 ser aplicada a um grande número de usuários potenciais, incluindo auditores, organizações que implementam SG, organizações que precisam realizar auditorias em SG por razões contratuais ou regulamentares.
+            - As diretrizes da norma podem ser usadas com a finalidade de autodeclaração e podem ser úteis às organizações envolvidas no treinamento de auditor ou certificação pessoal.
+            - A norma ISO 19011 é flexível, o uso das diretrizes pode diferir de acordo com o tamanho e do nível de maturidade do SG e da natureza e complexidade da organização, como também com o objetivo e escopo das auditorias.
+            - Introduz o conceito de risco do processo de auditoria não atingir seus objetivos.
+            - Adota o enfoque de auditoria combinada (2 ou mais SG auditados em conjunto) e auditoria combinada (sistemas integrados).
+        </corpo>
+    </pagina>
+
+    <pagina>
+        <titulo>Introdução da NBR ISO 19011:2012 - Tabela 1 relação com a NBR ISO/IEC 17021:2011</titulo>
+        <subtitulo>Auditoria de primeira parte: </subtitulo>
+            <corpo>
+                - Auditorias internas, isto é, auditorias que uma organização pode realizar nela mesma, utilizando seus funcionários ou auditores externos (consultores).
+            </corpo>
+        <subtitulo>Auditoria de segunda parte:</subtitulo>
+            <corpo>
+                - Auditorias externas que são conduzidas dentro da mesma cadeia de suprimentos, pode ser um cliente auditando a organização ou a organização auditando um fornecedor.
+            </corpo>
+        <subtitulo>Auditoria de terceira parte:</subtitulo>
+            <corpo>
+                - Auditorias externas que são conduzidas em uma organização por um agente que é independente da sua cadeia de suprimentos (isto é, nem fornecedor ou cliente da organização), por exemplo uma empresa de certificação.
+                Para fins de certificação ver requisitos das NBR ISO/IEC 17021.
+            </corpo>        
+    </pagina>
+
+    <pagina>
+        <titulo>1 - Escopo</titulo>
+        <corpo>
+            Esta norma fornece orientação sobre auditoria de sistemas de gestão, incluindo os princípios de auditoria, a gestão de um programa de auditoria e a realização de auditorias de sistema de gestão, como também orientação
+            sobre a avaliação da competência de pessoas envolvidas no processo de auditoria, incluindo a pessoa que gerencia o programa de auditoria, os auditores e a equipe de auditoria.
+            Ela é aplicável a todas as organizações que necessitam realizar auditorias internas ou externas de sistemas de gestão ou gerenciar um programa de auditoria.
+            A aplicação desta norma para outros tipos de auditoria é possível, desde que seja dada consideração especial para a necessidade de competência específica.
+        </corpo>
+    </pagina>
+
+    <pagina>
+        <titulo>2 - Referências normativas</titulo>
+        <corpo>
+            Não constam referências normativas mas as seguintes normas são citadas no texto da norma:
+                - NBR ISO 9000:2005 - Sistemas de gestão da qualidade - fundamentos e vocabulário;
+                - NBR ISO/IEC 17021:2011 - Avaliação de conformidade - Requisitos para organismos que fornecem auditoria e certificação de sistemas de gestão.
+        </corpo>
+    </pagina>
+
+    <pagina>
+        <titulo>3 - Termos e definições</titulo>
+        <corpo>
+            - Auditoria;
+            - Critério de auditoria;
+            - Evidência de auditoria;
+            - Constatações de Auditoria;
+            - Conclusão de auditoria;
+            - Cliente de auditoria;
+            - Auditado;
+            - Auditor;
+            - Equipe de auditoria;
+            - Especialista;
+            - Observador;
+            - Guia;
+            - Programa de auditoria;
+            - Escopo de auditoria;
+            - Plano de auditoria;
+            - Risco;
+            - Competência;
+            - Conformidade;
+            - Não conformidade;
+            - Sistema de gestão.
+        </corpo>
+    </pagina>
+
+    <pagina>
+        <titulo>4 - Princípio de auditoria</titulo>
+        <corpo>
+            A auditoria é caracterizada pela confiança em alguns princípios.
+            A aderência a estes princípios é um pré-requisito para fornecer conclusões de auditoria que são relevantes e suficientes, e para permitir que 
+            auditores que trabalhem independentemente entre si chegem a conclusões semelhantes em circuntâncias semelhantes:
+            <importante>
+                - Integridade: o fundamento do profissionalismo;
+                - Apresentação justa: a obrigação de reportar com veracidade e exatidão;
+                - Devido cuidado profissional: aplicação de diligência e julgamento na auditoria;
+                - Confidencialidade: segurança da informação;
+                - Independência: a base para a imparcialidade da auditoria e objetividade das conclusões de auditoria;
+                - Abordagem baseada em evidência: o método racional para alcançar conclusões de auditoria confiáveis e reproduzíveis em um processo sistemático de auditoria.
+            </importante>
+        </corpo>
+    </pagina>
+</auditoria>

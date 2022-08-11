@@ -1,0 +1,1 @@
+Formatting XML with CSS is not recommended. Use JavaScript or XSLT instead.
